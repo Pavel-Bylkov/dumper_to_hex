@@ -8,13 +8,24 @@ Help for Dumper to HEX
 	-o --out Output file or path
 
 Example: 
+
 python dumper_to_hex.py app.exe
+
 result - app.exe.txt
+
+
 python dumper_to_hex.py -d -s app.exe
+
 result - app.exe.txt
+
+
 python dumper_to_hex.py -d -s app.exe -o out.txt
+
 result - out.txt
+
+
 python dumper_to_hex.py -l -s app.exe.txt -o out.exe
+
 result - out.exe
 python dumper_to_hex.py -l -s app.exe.txt
 result - app.exe
