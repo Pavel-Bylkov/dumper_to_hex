@@ -27,5 +27,7 @@ result - out.txt
 python dumper_to_hex.py -l -s app.exe.txt -o out.exe
 
 result - out.exe
+
 python dumper_to_hex.py -l -s app.exe.txt
+
 result - app.exe
